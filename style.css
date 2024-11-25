@@ -33,7 +33,7 @@ body {
 #about-8,
 #robot-8,
 #team-8 {
-    margin: 4vh 0;
+    margin-bottom: 8vh;
 }
 
 #about-8 {
@@ -85,6 +85,14 @@ li a:hover {
 
 #content {
     margin-top: 8vh;
+}
+
+/* footer */
+
+footer {
+    height: 15vh;
+    display: flex;
+    text-align: center;
 }
 
 /* HOME */
@@ -194,4 +202,15 @@ li a:hover {
 .team-images {
     display: flex;
     justify-content: space-around;
+}
+
+#robot-images div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#robot-images div img {
+    height: 100%;
 }
