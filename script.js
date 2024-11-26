@@ -7,3 +7,15 @@ function mudaNome(muda) {
         document.getElementById('descricao').innerHTML = "(Sistema Autônomo Robótico para Assistência Humana)"
     }
 }
+
+function publicações (professor, leave) {
+    container = document.getElementById('info-professor')
+    if (leave) {
+        container.style.display = 'block'
+    } else {
+        container.style.display = 'none'
+    }
+    if (professor.match("Ivanoé")) {
+        
+    } 
+}
