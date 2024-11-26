@@ -28,7 +28,7 @@
                     </h1>
                     <br>
                     <div onmouseover="mudaNome(true)" onmouseleave="mudaNome(false)">
-                        <h2 class="roboto text"><span id="title-sarah">RASHA</span>!</h2>
+                        <h2 class="roboto text"><span id="title-sarah">SARAH</span>!</h2>
                         <span id="descricao">(Robotic Autonomous System for Human Assistance)</span>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
             </div>
             <hr id="about-8">
             <div id="about" class="h-full">
-                <h2>About us:</h2>
+                <h2 class="title-container">About us:</h2>
                 <section id="about-content">
                     <div class="text">
                         <h3 style="text-align: justify;">
@@ -80,7 +80,7 @@
             </div>
             <hr id="robot-8">
             <div id="robot" class="h-full">
-                <h2>meet RASHA (SARAH): </h2>
+                <h2 class="title-container">Meet RASHA (SARAH): </h2>
                 <section style="display: flex; justify-content: space-around; width: 100%;">
                     <!-- <img src="./assets/SARAH-3D.svg" alt="SARAH-blender"> -->
                      <section>
@@ -100,13 +100,13 @@
             </div>
             <hr id="team-8">
             <div id="team" class="h-full">
-                <h2>Team:</h2>
+                <h2 class="title-container">Team:</h2>
                 <section class="team-images images">
                     <div>
                         <img src="./assets/Integrantes/Ivanoe.svg" alt="">
                         <span>Prof. Dr. Ivanoé João Rodowanski</span>
                     </div>
-                    <div>
+                    <div onclick="publicacoes('Luiz Carlos', true)">
                         <img src="./assets/Integrantes/Luiz.svg" alt="">
                         <span>Prof. Dr. Luiz Carlos S. S. Júnior </span>
                     </div>
@@ -114,9 +114,13 @@
                         <img src="./assets/Integrantes/Tiago_Pagano.svg" alt="">
                         <span>Prof. Dr. Tiago Palma Pagano</span>
                     </div>
-                    <div>
+                    <div onclick="publicacoes('Igor', true)">
                         <img src="./assets/Integrantes/Igor.svg" alt="">
                         <span>Prof. Dr. Igor Dantas dos S. Miranda.</span>
+                    </div>
+                    <div>
+                        <img src="./assets/Integrantes/Luzimario.svg" alt="">
+                        <span>Prof. Dr. Gildeberto de Souza Cardoso</span>
                     </div>
                     <div>
                         <img src="./assets/Integrantes/Luzimario.svg" alt="">
@@ -163,7 +167,7 @@
                 <section id="info-professor" onmouseleave="publicacoes('', false)">
                     <h1> - nome professor -</h1>
                     <section>
-                        <img src="" alt="">
+                        <img src="./assets/garra.svg" alt="">
                     </section>
                     <section id="content-info-professor">
 
@@ -175,7 +179,7 @@
 
         </footer>
     </section>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
