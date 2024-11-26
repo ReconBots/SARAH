@@ -103,17 +103,17 @@ footer {
     padding: 20px;
 }
 
-#home h1::after {
-    content: '';
+#faixa {
     display: block;
-    width: 800px;
-    z-index: -1;
-    height: 200vh;
-    background-color: #fff;
+    width: 0px;
+    height: 0px;
     position: absolute;
-    top: -60vh;
-    left: -55px;
-    transform: rotate(35deg);
+    z-index: -1;
+    top: 0;
+    background-color: transparent;
+    border: 82vh solid transparent;
+    border-top: 82vh solid #fff;
+    border-left: 82vh solid #fff;
 }
 
 #home h1 {
@@ -122,8 +122,15 @@ footer {
     font-size: 100pt;
 }
 
-#home h1 span {
+#home h2 {
+    color: #1b1b1b;
     font-size: 130pt;
+    animation: changeText 10s ease-in;
+}
+
+#home span {
+    margin-top: -50px;
+    color: #1b1b1b;
 }
 
 #image-home {
@@ -144,8 +151,8 @@ footer {
     z-index: 5;
     background-color: #1b1b1b;
     display: flex;
+    height: 90vh;
     flex-direction: column;
-    height: 50vh;
     justify-content: space-between;
     padding: 20px;
 }
@@ -172,6 +179,9 @@ footer {
 .images div{
     width: 150px;
     height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #fff;
 }
 
@@ -201,7 +211,10 @@ footer {
 
 .team-images {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    color: #1b1b1b;
+    font-weight: bold;
+    text-align: center;
 }
 
 #robot-images div{
@@ -213,4 +226,14 @@ footer {
 
 #robot-images div img {
     height: 100%;
+}
+
+.team-images img{
+    height: 100px;
+}
+
+.team-images div {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
 }
