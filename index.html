@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div id="image-home">
-                    <img src="./assets/SARAH.svg" alt="image-robot-sarah">
+                    <img src="./assets/SARAH-2.svg" alt="image-robot-sarah">
                 </div>
             </div>
             <hr id="about-8">
@@ -83,10 +83,11 @@
                 <h2 class="title-container">Meet RASHA (SARAH): </h2>
                 <section style="display: flex; justify-content: space-around; width: 100%;">
                     <!-- <img src="./assets/SARAH-3D.svg" alt="SARAH-blender"> -->
-                     <section>
+                     <section style="display: flex; justify-content: space-between; width: 45%;">
                          <img src="./assets/SARAH.svg" alt="SARAH">
+                         <img src="./assets/SARAH-2.svg" alt="SARAH">
                      </section>
-                     <section style="display: flex; align-items: center; justify-content: center;">
+                     <section style="display: flex; align-items: center; justify-content: space-around; flex-direction: column; width: 45%;">
                         <iframe 
                         width="320" 
                         height="500" 
@@ -94,7 +95,8 @@
                         title="Vídeo do YouTube" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen> </iframe> 
+                        allowfullscreen> </iframe>
+                        <span style="margin-top: 20px;">Clique no vídeo para ver nosso progresso ☝️</span>
                      </section>
                 </section>
             </div>
@@ -116,7 +118,7 @@
                     </div>
                     <div onclick="publicacoes('Igor', true)">
                         <img src="./assets/Integrantes/Igor.svg" alt="">
-                        <span>Prof. Dr. Igor Dantas dos S. Miranda.</span>
+                        <span>Prof. Dr. Igor Dantas dos S. Miranda</span>
                     </div>
                     <div>
                         <img src="./assets/Integrantes/Luzimario.svg" alt="">
@@ -163,20 +165,87 @@
                         <span>Gabriel Marcolino Silva</span>
                     </div>
                 </section>
-
-                <section id="info-professor" onmouseleave="publicacoes('', false)">
-                    <h1> - nome professor -</h1>
-                    <section>
-                        <img src="./assets/garra.svg" alt="">
+            </div>
+            <div id="publicacoes" style="height: auto; font-weight: bold;">
+                <h2 class="title-container"> Publications: </h2>
+                <section class="publicacao-professor" style="border-radius: 10px 10px 0 0;">
+                    <section style="display: flex; flex-direction: column; width: 20%;">
+                        <img src="./assets/Integrantes/Igor.svg" alt="Igor" style="width: 300px; margin-bottom: 20px;">
+                        <h3>Prof. Dr. Igor Dantas dos S. Miranda</h3>
                     </section>
-                    <section id="content-info-professor">
+                    <hr>
+                    <section style="width: 60%;">
+                        <ul style="display: flex; flex-direction: column; align-items: flex-start;">
+                            <li style="list-style:circle;">Combinational Intelligent Networks - International Conference on Application-specific Systems, Architectures and Processors (ASAP) - 2023</li>
+                            <li style="list-style:circle;">Accelerometer-Based Bed Occupancy Detection for Automatic, Non-Invasive Long-Term Cough Monitoring - IEEE Access - 2023</li>
+                            <li style="list-style:circle;">Automatic Non-Invasive Cough Detection based on Accelerometer and Audio Signals - JOURNAL OF SIGNAL PROCESSING SYSTEMS FOR SIGNAL - 2022</li>
+                            <li style="list-style:circle;">Deep Neural Network Based Cough Detection Using Bed-Mounted Accelerometer Measurements - IEEE International Conference on Acoustics, Speech and Signal Processing - 2021</li>
+                        </ul>
+                    </section>
+                </section>
 
+                <section class="publicacao-professor">
+                    <section style="display: flex; flex-direction: column; width: 20%;">
+                        <img src="./assets/Integrantes/Luiz.svg" alt="Luiz" style="width: 300px; margin-bottom: 20px;">
+                        <h3>Prof. Dr. Luiz Carlos S. S. Júnior</h3>
+                    </section>
+                    <hr>
+                    <section style="width: 60%;">
+                        <ul style="display: flex; flex-direction: column; align-items: flex-start;">
+                            <li style="list-style:circle;">Aplicações baseadas em visão computacional com controle fuzzy em sistemas robóticos - SBAI 2019</li>
+                            <li style="list-style:circle;">Restriction of Transverse Feedback Linearization for Piecewise Linear Paths - Wiley Online Library</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section class="publicacao-professor">
+                    <section style="display: flex; flex-direction: column; width: 20%;">
+                        <img src="./assets/Integrantes/Ivanoe.svg" alt="Luiz" style="width: 300px; margin-bottom: 20px;">
+                        <h3>Prof. Dr. Ivanoé João Rodowanski</h3>
+                    </section>
+                    <hr>
+                    <section style="width: 60%;">
+                        <ul style="display: flex; flex-direction: column; align-items: flex-start;">
+                            <li style="list-style:circle;"></li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section class="publicacao-professor">
+                    <section style="display: flex; flex-direction: column; width: 20%;">
+                        <img src="./assets/Integrantes/Luiz.svg" alt="Luiz" style="width: 300px; margin-bottom: 20px;">
+                        <h3>Prof. Dr. Gildeberto de Souza Cardoso</h3>
+                    </section>
+                    <hr>
+                    <section style="width: 60%;">
+                        <ul style="display: flex; flex-direction: column; align-items: flex-start;">
+                            <li style="list-style:circle;">Restriction of Transverse Feedback Linearization for Piecewise Linear - SCOPUS</li>
+                        </ul>
+                    </section>
+                </section>
+
+
+                <section class="publicacao-professor" style="border-radius: 0 0 10px 10px; margin-bottom:  20px;">
+                    <section style="display: flex; flex-direction: column; width: 20%;">
+                        <img src="./assets/Integrantes/Tiago_Pagano.svg" alt="Tiago" style="width: 300px; margin-bottom: 20px;">
+                        <h3>Prof. Dr. Tiago Palma Pagano</h3>
+                    </section>
+                    <hr>
+                    <section style="width: 60%;">
+                        <ul style="display: flex; flex-direction: column; align-items: flex-start;">
+                            <li style="list-style:circle; text-transform: capitalize;">image segmentation for people identification: anevaluation of unsupervised techniques - 2020 - SIIT</li>
+                            <li style="list-style:circle; text-transform: capitalize;">segmentação de imagem não supervisionada para reconhecimento de ações. in: vi seminário de avaliação de pesquisa científica e tecnológica (sapct) e v workshop de integração e capacitação em processamento de alto desempenho (icpad)</li>
+                            <li style="list-style:circle; text-transform: capitalize;">Context-Based Patterns in Machine Learning Bias and Fairness Metrics: A Sensitive Attributes-Based Approach. Big Data And Cognitive Computing - 2023</li>
+                            <li style="list-style:circle; text-transform: capitalize;">Unfairness in Machine Learning Models: A Systematic Review on Datasets, Tools, Fairness Metrics, and Identification and Mitigation Methods. Big Data And Cognitive Computing - 2023</li>
+                            <li style="list-style:circle; text-transform: capitalize;">Machine Learning Models and Videos of Facial Regions for Estimating Heart Rate: A Review on Patents, Datasets, and Literature. ELECTRONICS - 2022</li>
+                            <li style="list-style:circle; text-transform: capitalize;">Remote Heart Rate Prediction in Virtual Reality Head-Mounted Displays Using Machine Learning Techniques. SENSORS - 2022</li>
+                        </ul>
                     </section>
                 </section>
             </div>
         </section>
-        <footer>
-
+        <footer style="text-align: center; display: flex; justify-content: center; padding: 10px; color: #fff; font-size: 14px;">
+            &copy; 2024 Reconbots. Todos os direitos reservados. Proibida a reprodução total ou parcial sem autorização prévia.
         </footer>
     </section>
     <script src="./script.js"></script>

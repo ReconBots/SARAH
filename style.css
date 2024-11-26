@@ -302,3 +302,24 @@ footer {
     align-items: center;
     display: none;
 }
+
+/* publicações */
+
+#publicacoes {
+   width: 80vw;
+   margin: 20px 0;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+.publicacao-professor {
+    height: 40vh;
+    background-color: #fff;
+    color: #1b1b1b;
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
